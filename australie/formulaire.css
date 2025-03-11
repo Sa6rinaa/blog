@@ -1,0 +1,93 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: 150px auto;
+    background: linear-gradient(to bottom, #118ab9, #cde3d5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #0a478d;
+    border-radius: 5px;
+    background-color: #6b706c;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #0ad836;
+    outline: none;
+}
+
+form button {
+    background-color: #c3c6d89a;
+    color: rgb(17, 1, 1);
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #8ba070;
+}
+
+
+footer {
+    background-color: #a87c1d;
+    color: rgb(41, 152, 185);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    form {
+        margin: 50px 20px;
+        padding: 15px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    form {
+        margin: 50px 20px;
+        padding: 15px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 12px;
+    }
+}
